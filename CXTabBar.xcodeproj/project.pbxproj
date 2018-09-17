@@ -13,6 +13,19 @@
 		C01957D9214F53F10076729D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01957D8214F53F10076729D /* Assets.xcassets */; };
 		C01957DC214F53F10076729D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01957DA214F53F10076729D /* LaunchScreen.storyboard */; };
 		C01957DF214F53F10076729D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C01957DE214F53F10076729D /* main.m */; };
+		C019580B214F570C0076729D /* UITabBarController+tabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01957E7214F570C0076729D /* UITabBarController+tabBarController.m */; };
+		C019580D214F570C0076729D /* CXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01957ED214F570C0076729D /* CXTabBarController.m */; };
+		C019580E214F570C0076729D /* UIView+CXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C01957F1214F570C0076729D /* UIView+CXExtension.m */; };
+		C019580F214F570C0076729D /* CAAnimation+CXAddAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C01957F2214F570C0076729D /* CAAnimation+CXAddAnimation.m */; };
+		C0195810214F570C0076729D /* CXTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C01957F3214F570C0076729D /* CXTabBar.m */; };
+		C0195811214F570C0076729D /* CXBadgeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = C01957F4214F570C0076729D /* CXBadgeValue.m */; };
+		C0195812214F570C0076729D /* CXTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C01957FA214F570C0076729D /* CXTabBarItem.m */; };
+		C0195813214F570C0076729D /* CXTabBarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C01957FB214F570C0076729D /* CXTabBarConfig.m */; };
+		C0195814214F570C0076729D /* SpringAnimationTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C01957FF214F570C0076729D /* SpringAnimationTabBar.m */; };
+		C0195815214F570C0076729D /* CXBaseTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0195804214F570C0076729D /* CXBaseTabBar.m */; };
+		C0195816214F570C0076729D /* BasedUsingTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0195805214F570C0076729D /* BasedUsingTabBar.m */; };
+		C0195817214F570C0076729D /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0195807214F570C0076729D /* OneViewController.m */; };
+		C0195818214F570C0076729D /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0195808214F570C0076729D /* TwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +39,33 @@
 		C01957DB214F53F10076729D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C01957DD214F53F10076729D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C01957DE214F53F10076729D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C01957E6214F570C0076729D /* UITabBarController+tabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+tabBarController.h"; sourceTree = "<group>"; };
+		C01957E7214F570C0076729D /* UITabBarController+tabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+tabBarController.m"; sourceTree = "<group>"; };
+		C01957E9214F570C0076729D /* SubTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubTabBar.h; sourceTree = "<group>"; };
+		C01957ED214F570C0076729D /* CXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTabBarController.m; sourceTree = "<group>"; };
+		C01957EF214F570C0076729D /* UIView+CXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CXExtension.h"; sourceTree = "<group>"; };
+		C01957F0214F570C0076729D /* CAAnimation+CXAddAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+CXAddAnimation.h"; sourceTree = "<group>"; };
+		C01957F1214F570C0076729D /* UIView+CXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CXExtension.m"; sourceTree = "<group>"; };
+		C01957F2214F570C0076729D /* CAAnimation+CXAddAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+CXAddAnimation.m"; sourceTree = "<group>"; };
+		C01957F3214F570C0076729D /* CXTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTabBar.m; sourceTree = "<group>"; };
+		C01957F4214F570C0076729D /* CXBadgeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXBadgeValue.m; sourceTree = "<group>"; };
+		C01957F5214F570C0076729D /* CXTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTabBarItem.h; sourceTree = "<group>"; };
+		C01957F6214F570C0076729D /* CXTabBarConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTabBarConfig.h; sourceTree = "<group>"; };
+		C01957F7214F570C0076729D /* CXTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTabBar.h; sourceTree = "<group>"; };
+		C01957F8214F570C0076729D /* CXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXTabBarController.h; sourceTree = "<group>"; };
+		C01957F9214F570C0076729D /* CXBadgeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXBadgeValue.h; sourceTree = "<group>"; };
+		C01957FA214F570C0076729D /* CXTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTabBarItem.m; sourceTree = "<group>"; };
+		C01957FB214F570C0076729D /* CXTabBarConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXTabBarConfig.m; sourceTree = "<group>"; };
+		C01957FF214F570C0076729D /* SpringAnimationTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringAnimationTabBar.m; sourceTree = "<group>"; };
+		C0195800214F570C0076729D /* SpringAnimationTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringAnimationTabBar.h; sourceTree = "<group>"; };
+		C0195802214F570C0076729D /* CXBaseTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXBaseTabBar.h; sourceTree = "<group>"; };
+		C0195803214F570C0076729D /* BasedUsingTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasedUsingTabBar.h; sourceTree = "<group>"; };
+		C0195804214F570C0076729D /* CXBaseTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXBaseTabBar.m; sourceTree = "<group>"; };
+		C0195805214F570C0076729D /* BasedUsingTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasedUsingTabBar.m; sourceTree = "<group>"; };
+		C0195807214F570C0076729D /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		C0195808214F570C0076729D /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		C0195809214F570C0076729D /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		C019580A214F570C0076729D /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +104,110 @@
 				C01957D3214F53F00076729D /* ViewController.m */,
 				C01957D5214F53F00076729D /* Main.storyboard */,
 				C01957D8214F53F10076729D /* Assets.xcassets */,
+				C01957E5214F570C0076729D /* Category */,
+				C0195806214F570C0076729D /* ShowVC */,
+				C01957E8214F570C0076729D /* SubTabBar */,
 				C01957DA214F53F10076729D /* LaunchScreen.storyboard */,
 				C01957DD214F53F10076729D /* Info.plist */,
 				C01957DE214F53F10076729D /* main.m */,
 			);
 			path = CXTabBar;
+			sourceTree = "<group>";
+		};
+		C01957E5214F570C0076729D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C01957E6214F570C0076729D /* UITabBarController+tabBarController.h */,
+				C01957E7214F570C0076729D /* UITabBarController+tabBarController.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C01957E8214F570C0076729D /* SubTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				C01957E9214F570C0076729D /* SubTabBar.h */,
+				C01957EA214F570C0076729D /* 自定义 */,
+				C01957FD214F570C0076729D /* 系统 */,
+			);
+			path = SubTabBar;
+			sourceTree = "<group>";
+		};
+		C01957EA214F570C0076729D /* 自定义 */ = {
+			isa = PBXGroup;
+			children = (
+				C01957EC214F570C0076729D /* CXTabBarController */,
+			);
+			path = "自定义";
+			sourceTree = "<group>";
+		};
+		C01957EC214F570C0076729D /* CXTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				C01957EE214F570C0076729D /* Tools */,
+				C01957F8214F570C0076729D /* CXTabBarController.h */,
+				C01957ED214F570C0076729D /* CXTabBarController.m */,
+				C01957F7214F570C0076729D /* CXTabBar.h */,
+				C01957F3214F570C0076729D /* CXTabBar.m */,
+				C01957F9214F570C0076729D /* CXBadgeValue.h */,
+				C01957F4214F570C0076729D /* CXBadgeValue.m */,
+				C01957F5214F570C0076729D /* CXTabBarItem.h */,
+				C01957FA214F570C0076729D /* CXTabBarItem.m */,
+				C01957F6214F570C0076729D /* CXTabBarConfig.h */,
+				C01957FB214F570C0076729D /* CXTabBarConfig.m */,
+			);
+			path = CXTabBarController;
+			sourceTree = "<group>";
+		};
+		C01957EE214F570C0076729D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C01957EF214F570C0076729D /* UIView+CXExtension.h */,
+				C01957F1214F570C0076729D /* UIView+CXExtension.m */,
+				C01957F0214F570C0076729D /* CAAnimation+CXAddAnimation.h */,
+				C01957F2214F570C0076729D /* CAAnimation+CXAddAnimation.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		C01957FD214F570C0076729D /* 系统 */ = {
+			isa = PBXGroup;
+			children = (
+				C01957FE214F570C0076729D /* item 添加动画 */,
+				C0195801214F570C0076729D /* 基本用法 */,
+			);
+			path = "系统";
+			sourceTree = "<group>";
+		};
+		C01957FE214F570C0076729D /* item 添加动画 */ = {
+			isa = PBXGroup;
+			children = (
+				C0195800214F570C0076729D /* SpringAnimationTabBar.h */,
+				C01957FF214F570C0076729D /* SpringAnimationTabBar.m */,
+			);
+			path = "item 添加动画";
+			sourceTree = "<group>";
+		};
+		C0195801214F570C0076729D /* 基本用法 */ = {
+			isa = PBXGroup;
+			children = (
+				C0195802214F570C0076729D /* CXBaseTabBar.h */,
+				C0195804214F570C0076729D /* CXBaseTabBar.m */,
+				C0195803214F570C0076729D /* BasedUsingTabBar.h */,
+				C0195805214F570C0076729D /* BasedUsingTabBar.m */,
+			);
+			path = "基本用法";
+			sourceTree = "<group>";
+		};
+		C0195806214F570C0076729D /* ShowVC */ = {
+			isa = PBXGroup;
+			children = (
+				C0195809214F570C0076729D /* OneViewController.h */,
+				C0195807214F570C0076729D /* OneViewController.m */,
+				C019580A214F570C0076729D /* TwoViewController.h */,
+				C0195808214F570C0076729D /* TwoViewController.m */,
+			);
+			path = ShowVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +280,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0195813214F570C0076729D /* CXTabBarConfig.m in Sources */,
+				C0195812214F570C0076729D /* CXTabBarItem.m in Sources */,
 				C01957D4214F53F00076729D /* ViewController.m in Sources */,
+				C019580F214F570C0076729D /* CAAnimation+CXAddAnimation.m in Sources */,
+				C0195815214F570C0076729D /* CXBaseTabBar.m in Sources */,
+				C0195814214F570C0076729D /* SpringAnimationTabBar.m in Sources */,
+				C0195816214F570C0076729D /* BasedUsingTabBar.m in Sources */,
+				C019580D214F570C0076729D /* CXTabBarController.m in Sources */,
+				C0195811214F570C0076729D /* CXBadgeValue.m in Sources */,
+				C019580B214F570C0076729D /* UITabBarController+tabBarController.m in Sources */,
+				C0195818214F570C0076729D /* TwoViewController.m in Sources */,
 				C01957DF214F53F10076729D /* main.m in Sources */,
+				C0195810214F570C0076729D /* CXTabBar.m in Sources */,
 				C01957D1214F53F00076729D /* AppDelegate.m in Sources */,
+				C019580E214F570C0076729D /* UIView+CXExtension.m in Sources */,
+				C0195817214F570C0076729D /* OneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 89JR2TR578;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CXTabBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 89JR2TR578;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CXTabBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
